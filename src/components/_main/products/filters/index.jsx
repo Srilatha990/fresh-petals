@@ -93,7 +93,7 @@ export default function Filter({ ...props }) {
             </>
           )
         )}
-        {isLoading ? (
+        {/* {isLoading ? (
           <Sizes />
         ) : (
           Boolean(filters?.sizes?.length) && (
@@ -104,7 +104,7 @@ export default function Filter({ ...props }) {
               </Box>
             </>
           )
-        )}
+        )} */}
         <Divider />
         {Boolean(filters?.prices?.length) && (
           <Box p={2}>

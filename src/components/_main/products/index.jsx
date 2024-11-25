@@ -25,8 +25,8 @@ const Pagination = dynamic(() => import('src/components/pagination'));
 
 const sortData = [
   { title: 'Top Rated', key: 'top', value: -1 },
-  { title: 'Asceding', key: 'name', value: 1 },
-  { title: 'Desceding', key: 'name', value: -1 },
+  { title: 'Ascending', key: 'name', value: 1 },
+  { title: 'Descending', key: 'name', value: -1 },
   { title: 'Price low to high', key: 'price', value: 1 },
   { title: 'Price high to low', key: 'price', value: -1 },
   { title: 'Oldest', key: 'date', value: 1 },
