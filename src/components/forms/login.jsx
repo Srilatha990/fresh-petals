@@ -137,7 +137,7 @@ export default function LoginForm() {
           </Stack>
           <Stack direction="row" alignItems="center" justifyContent="space-between" sx={{ my: 2 }}>
             <FormControlLabel
-              control={<Checkbox {...getFieldProps('remember')} checked={values.remember} />}
+              control={<Checkbox {...getFieldProps('remember')}  />}
               label="Remember me"
             />
             <Link component={RouterLink} variant="subtitle2" href="/auth/forget-password">
